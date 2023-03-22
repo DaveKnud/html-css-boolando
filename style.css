@@ -7,7 +7,6 @@
 header{
     height: 50px;
     background-color: orange;
-  
     position: fixed;
     width: 100%;
 }
@@ -43,7 +42,7 @@ header{
 
 
 .product{
-    position: absolute;
+    position: relative;
 }
 
 
@@ -52,9 +51,33 @@ img.resized{
  width: auto; height: 582px;
 }
 
-.sconto-verde{
+.sostenibilita-verde{
     background-color: green;
-    position: relative;
+    position: absolute;
+bottom: 80px;
+left:45px;
+}
+
+.heart{
+   background-color: white;
+   padding: 2%;
+   font-size: 25px;
+   position: absolute;
+   bottom: 590px;
+right:0px;
+
+}
+
+.sconto-rosso{
+position: absolute;
+background-color: red;
+bottom: 80px;
+left:0;
+
+}
+
+.prezzo-rosso{
+    color: red;
 }
 
 /* debug */
