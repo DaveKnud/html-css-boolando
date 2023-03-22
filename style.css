@@ -9,6 +9,7 @@ header{
     background-color: orange;
     position: fixed;
     width: 100%;
+    z-index: 900;
 }
 
 .header-container{
@@ -43,12 +44,13 @@ header{
 
 .product{
     position: relative;
+    width: calc(100/3);
 }
 
 
 
 img.resized{
- width: auto; height: 582px;
+ width:100%
 }
 
 .sostenibilita-verde{
