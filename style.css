@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 50px;
+    background-color: orange;
+}
+
+.header-container{
+    width: 80%;
+    margin: auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.immagine-logo{
+    height: 20px;
+   margin:30% 30%;
+}
+
+.row1{
+    
+}
+
+/* debug */
+.row1{
+    background-color: aqua;
+
+}
