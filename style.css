@@ -7,6 +7,9 @@
 header{
     height: 50px;
     background-color: orange;
+  
+    position: fixed;
+    width: 100%;
 }
 
 .header-container{
@@ -25,8 +28,20 @@ header{
 }
 
 .row1{
-    
+  display: flex;
+  width: 80%;
+    margin: auto;
+    gap: 5px;
 }
+
+.product{
+   padding-top: 80px;
+    height:400px ;
+    display: flex;
+}
+
+
+img.resized { width: auto; min-height: 587px; }
 
 /* debug */
 .row1{
