@@ -27,24 +27,42 @@ header{
    margin:30% 30%;
 }
 
+/* Main */
+
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
 .row1{
   display: flex;
-  width: 80%;
-    margin: auto;
-    gap: 5px;
+  gap: 5px;
+  padding-top: 80px;
 }
+
 
 .product{
-   padding-top: 80px;
-    height:400px ;
-    display: flex;
+    position: absolute;
 }
 
 
-img.resized { width: auto; min-height: 587px; }
+
+img.resized{
+ width: auto; height: 582px;
+}
+
+.sconto-verde{
+    background-color: green;
+    position: relative;
+}
 
 /* debug */
 .row1{
     background-color: aqua;
 
+}
+
+article{
+    border: 2px solid black;
 }
