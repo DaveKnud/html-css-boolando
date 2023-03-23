@@ -20,7 +20,10 @@ header{
     align-items: center;
     justify-content: space-between;
     color: white;
+    cursor: pointer;
+    
 }
+
 
 .immagine-logo{
     height: 20px;
@@ -54,6 +57,16 @@ header{
 
 .product:hover .heart{
     display: block;
+}
+.resized.hover{
+    display:none;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+
+.product:hover .resized.hover{
+display: block;
 }
 
 
