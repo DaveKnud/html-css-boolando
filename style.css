@@ -115,6 +115,12 @@ footer{
     color: white;
 }
 
+.nav-footer a{
+    padding-right: 10px;
+    font-size: 10px;
+}
+
+
 /* debug
 .row1{
     background-color: aqua;
